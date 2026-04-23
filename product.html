@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maison de Sucre | Produk</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="home.html">Maison de Sucre</a>
+      <nav>
+        <ul class="nav-list">
+          <li><a href="home.html">Home</a></li>
+          <li><a href="product.html" class="active">Produk</a></li>
+          <li><a href="keranjang.html">Keranjang <span class="cart-count">(0)</span></a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-content">
+        <p class="eyebrow">Pilihan terbaik</p>
+        <h1>Menu dessert premium</h1>
+        <p class="hero-text">Pilih dari koleksi dessert yang dibuat khusus untuk pecinta manis.</p>
+      </div>
+    </section>
+
+    <section class="featured-products container">
+      <div class="section-heading">
+        <h2>Daftar Produk</h2>
+        <p>Klik tombol tambah untuk memasukkan produk ke keranjang belanja.</p>
+      </div>
+      <div class="card-grid">
+        <div class="product-card">
+          <img src="https://images.unsplash.com/photo-1632572414849-cbb09ebe326a?auto=format&fit=crop&w=700&q=80" alt="Macaron Box">
+          <div class="product-card-content">
+            <h3>Classic Macaron Box</h3>
+            <p>Delapan macaron dengan rasa mewah dan tekstur lembut.</p>
+            <p class="price">Rp 120.000</p>
+            <button class="btn-cart" onclick="addToCart('Classic Macaron Box', 120000)">Tambah ke Keranjang</button>
+          </div>
+        </div>
+        <div class="product-card">
+          <img src="https://images.unsplash.com/photo-1606755962770-f1a5aba24144?auto=format&fit=crop&w=700&q=80" alt="Strawberry Shortcake">
+          <div class="product-card-content">
+            <h3>Strawberry Shortcake</h3>
+            <p>Kue lapis vanilla dengan krim segar dan stroberi manis.</p>
+            <p class="price">Rp 45.000</p>
+            <button class="btn-cart" onclick="addToCart('Strawberry Shortcake', 45000)">Tambah ke Keranjang</button>
+          </div>
+        </div>
+        <div class="product-card">
+          <img src="https://images.unsplash.com/photo-1606755901547-843f8e311d9f?auto=format&fit=crop&w=700&q=80" alt="Chocolate Truffle">
+          <div class="product-card-content">
+            <h3>Chocolate Truffle</h3>
+            <p>Truffle cokelat creamy dengan lapisan bubuk kakao istimewa.</p>
+            <p class="price">Rp 65.000</p>
+            <button class="btn-cart" onclick="addToCart('Chocolate Truffle', 65000)">Tambah ke Keranjang</button>
+          </div>
+        </div>
+        <div class="product-card">
+          <img src="https://images.unsplash.com/photo-1603898037225-3c0c8f3f5c6f?auto=format&fit=crop&w=700&q=80" alt="Classic Cheesecake">
+          <div class="product-card-content">
+            <h3>Classic Cheesecake</h3>
+            <p>Cheesecake lembut dengan krim keju premium dan saus berry.</p>
+            <p class="price">Rp 80.000</p>
+            <button class="btn-cart" onclick="addToCart('Classic Cheesecake', 80000)">Tambah ke Keranjang</button>
+          </div>
+        </div>
+        <div class="product-card">
+          <img src="https://images.unsplash.com/photo-1585198330882-f32e816d0320?auto=format&fit=crop&w=700&q=80" alt="Tiramisu Cake">
+          <div class="product-card-content">
+            <h3>Tiramisu Cake</h3>
+            <p>Kombinasi kopi dan mascarpone untuk rasa otentik Italia.</p>
+            <p class="price">Rp 75.000</p>
+            <button class="btn-cart" onclick="addToCart('Tiramisu Cake', 75000)">Tambah ke Keranjang</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-top">
+      <div class="footer-grid">
+        <div class="footer-card">
+          <h3>Tentang Maison de Sucre</h3>
+          <p>Bergerak untuk menghadirkan dessert berkualitas dengan tampilan memikat.</p>
+        </div>
+        <div class="footer-card">
+          <h3>Kontak</h3>
+          <p>Email: hello@maisondesucre.com</p>
+          <p>Telp: +62 812-3456-7890</p>
+        </div>
+      </div>
+    </div>
+    <small>&copy; 2026 Maison de Sucre. Semua hak cipta dilindungi.</small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+</html>
